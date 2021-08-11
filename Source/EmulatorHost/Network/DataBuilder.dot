@@ -1,0 +1,15 @@
+﻿digraph {
+    Ready;
+    Reading;
+    Escaping;
+    
+     Ready -> Ready [label = "Separator"];
+     Ready -> Escaping [label = "EscapeChar"];
+     Ready -> Reading [label = "Char"];
+     Reading -> Reading [label = "Char"];
+     Reading -> Escaping [label = "EscapeChar"];
+     Escaping -> Escaping [label = "Char"];
+     Escaping -> Escaping [label = "Separator"];
+     Escaping -> Reading [label = "EscapeChar"];
+     Reading -> Ready [label = "Separator"];
+}

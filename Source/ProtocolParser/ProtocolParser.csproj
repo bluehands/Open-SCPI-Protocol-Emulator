@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Antlr4 Include="Keysight34465A\Keysight34465ASCPI.g4">
+            <Package>ProtocolParser.Keysight34465A</Package>
+            <AntOutDir>..\ProtocolParser\Keysight34465A</AntOutDir>
+            <Listener>false</Listener>
+        </Antlr4>
+        <Antlr4 Include="Keysight3458\Keysight3458ASCPI.g4">
+            <Package>ProtocolParser.Keysight3458A</Package>
+            <AntOutDir>..\ProtocolParser\Keysight3458</AntOutDir>
+            <Listener>false</Listener>
+        </Antlr4>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Antlr4.Runtime.Standard" Version="4.9.1" />
+        <PackageReference Include="Antlr4BuildTasks" Version="8.13.0" />
+    </ItemGroup>
+    
+</Project>
