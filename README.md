@@ -45,7 +45,7 @@ The Open-SCPI-Protocol-Emulator can be used to emulate Keysight measurement devi
 To install run:
 
 ```bash
-  git clone insert url
+  git clone https://github.com/bluehands/Open-SCPI-Protocol-Emulator.git
 ```
 
 To restore NuGet packages navigate into the source directory and run:
@@ -255,7 +255,7 @@ Project structure:
 
 ### Dependency graph
 
-![graph](insert url)
+![graph](https://github.com/bluehands/Open-SCPI-Protocol-Emulator/blob/develop/Docs/EmulatorArchitecture.png)
 
 ### Control flow / data flow:
 
