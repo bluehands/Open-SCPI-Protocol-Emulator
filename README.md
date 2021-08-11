@@ -74,7 +74,7 @@ Only devices with a valid and present configuration will be started. The root no
 {
   "Keysight34465AConfiguration": {
     "Ip": "127.0.0.1",
-    "Port": 5025, // define an idividual port for every device
+    "Port": 5025,
     "Identification": "Keysight Technologies,34465A,21-BH-34465-EMULATOR,0.01.00-01.00-01.00-01.00-01-01",
     "VoltageInterferenceFactors": [
       0.0,
@@ -84,7 +84,7 @@ Only devices with a valid and present configuration will be started. The root no
       0.0,
       -0.001,
       -0.002,
-      -0.001 // extend this if you want
+      -0.001
     ],
     "CurrentInterferenceFactors": [
       0.0,
@@ -94,11 +94,11 @@ Only devices with a valid and present configuration will be started. The root no
       0.0,
       -0.0001,
       -0.0002,
-      -0.0001 // extend this if you want
+      -0.0001
     ],
     "LowImpedanceInterferenceMultiplier": 2.0,
     "HighImpedanceInterferenceMultiplier": 1.0,
-    "CurrentRangeAuto": 1E-05, // define defaults and base values ...
+    "CurrentRangeAuto": 1E-05,
     "CurrentRangeMin": 1E-05,
     "CurrentRangeMax": 1E-05,
     "CurrentRangeDef": 1E-05,
@@ -107,9 +107,9 @@ Only devices with a valid and present configuration will be started. The root no
     "VoltageRangeMax": 1000.0,
     "VoltageRangeDef": 500.0
   },
-  "Keysight3458AConfiguration": { // leave the node empty but present if you do not want to start this device
+  "Keysight3458AConfiguration": {
     "Ip": "127.0.0.1",
-    "Port": 5026, // define an idividual port for every device
+    "Port": 5026,
     "Identification": "Keysight Technologies, 3458A-EMULATOR,0.01.00-01.00-01.00-01.00-01-01",
     "VoltageInterferenceFactors": [
       0.0,
@@ -119,7 +119,7 @@ Only devices with a valid and present configuration will be started. The root no
       0.0,
       -0.001,
       -0.002,
-      -0.001 // extend this if you want
+      -0.001
     ],
     "CurrentInterferenceFactors": [
       0.0,
@@ -129,9 +129,9 @@ Only devices with a valid and present configuration will be started. The root no
       0.0,
       -0.0001,
       -0.0002,
-      -0.0001 // extend this if you want
+      -0.0001
     ],
-    "CurrentRangeAuto": 1E-05, // define defaults and base values ...
+    "CurrentRangeAuto": 1E-05,
     "CurrentRangeMin": 1E-05,
     "CurrentRangeMax": 1E-05,
     "CurrentRangeDef": 1E-05,
